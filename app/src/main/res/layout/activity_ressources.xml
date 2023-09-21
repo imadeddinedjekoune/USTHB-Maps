@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    android:clipToPadding="false"
+    tools:context=".Ressources">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/BlueBackground"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp"
+        android:paddingBottom="20dp"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+        app:title="Ressources"
+        app:titleTextColor="@color/textColor"
+        app:titleMarginTop="15dp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+
+        android:paddingRight="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+
+            android:layout_gravity="center_horizontal"
+            android:divider="@drawable/empty_tall_divider"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <Button
+                android:id="@+id/mi"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_custum"
+
+                android:drawablePadding="20dp"
+                android:text="MI"
+                android:textColor="@color/textColor"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ACAD"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_custum"
+                android:drawablePadding="20dp"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:text="ACAD" />
+
+            <Button
+                android:id="@+id/ISIL"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_custum"
+                android:drawablePadding="20dp"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:text="ISIL" />
+
+            <Button
+                android:id="@+id/GTR"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_custum"
+                android:drawablePadding="20dp"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="28dp"
+
+                android:text="GTR" />
+
+            <Button
+                android:id="@+id/MathRO"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_custum"
+                android:drawablePadding="20dp"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:text="Math RO" />
+
+            <Button
+                android:id="@+id/MIV"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_custum"
+                android:drawablePadding="20dp"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:text="MIV" />
+
+            <Button
+                android:id="@+id/sii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_custum"
+                android:drawablePadding="20dp"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:text="SII" />
+
+            <Button
+                android:id="@+id/BIOINFO"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_custum"
+                android:drawablePadding="20dp"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:text="BIO INFO" />
+
+            <Button
+                android:id="@+id/IL"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_custum"
+                android:drawablePadding="20dp"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:text="IL" />
+
+            <Button
+                android:id="@+id/RSD"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_custum"
+                android:drawablePadding="20dp"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:text="RSD" />
+
+            <Button
+                android:id="@+id/SSI"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_custum"
+                android:drawablePadding="20dp"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:text="SSI" />
+
+            <Button
+                android:id="@+id/box"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:drawablePadding="20dp"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
